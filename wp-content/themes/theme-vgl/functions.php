@@ -38,5 +38,21 @@ function enqueue_custom_block()
 		array(),
 		filemtime(get_stylesheet_directory() . '/widgets-gutenberg/image-text/style.css')
 	);
+
+	wp_enqueue_script(
+		'banner-script',
+		get_stylesheet_directory_uri() . '/widgets-gutenberg/banner/editor.js',
+		array('wp-blocks', 'wp-editor', 'wp-element'),
+		filemtime(get_stylesheet_directory() . '/widgets-gutenberg/banner/editor.js'),
+		true
+	);
+
+	wp_enqueue_style(
+		'banner-style',
+		get_stylesheet_directory_uri() . '/widgets-gutenberg/banner/style.css',
+		array(),
+		filemtime(get_stylesheet_directory() . '/widgets-gutenberg/banner/style.css')
+	);
 }
 add_action('enqueue_block_editor_assets', 'enqueue_custom_block');
+
