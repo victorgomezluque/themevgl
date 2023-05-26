@@ -1,0 +1,29 @@
+//Media Queries
+$Mobile-md: 480px;
+$tablet-sm: 768px;
+$tablet-md: 991px;
+$desktop-md: 1024px;
+$desktop-lg: 1279px;
+$desktop-lg2: 1366px;
+$desktop-xl: 1600px;
+$desktop-xxl: 1920px;
+$desktop-xxxl: 2048px;
+
+
+//$container-max: ;
+
+//Variable Colors 
+$primary: #ff0009;
+$white: #ffffff;
+$black: #000000;
+$charcoal-grey: #464a4b;
+$grey: #f2f2f2;
+$grey-cool: #b1b2b4;
+$grey-pinkish: #bcbcbc;
+$greyish-brown: #4d4f43;
+$grey-bg: #F5F5F6;
+$grey-battleship: #737378;
+
+/* IMG */
+//background: url('#{$imgPath}/xxxx.png')
+$imgPath : "../../assets/";

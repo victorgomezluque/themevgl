@@ -1,0 +1,27 @@
+.wp-block-image-text-block {
+    &.image-text {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+
+        .image-text-text {
+            background: $primary;
+
+            .image-text-text-p {
+                display: block;
+                height: auto;
+                margin: auto;
+                padding: 100px;
+            }
+        }
+
+        .image-text-img {
+            img {
+                display: block;
+                max-width: 400px;
+                height: auto;
+                margin: auto;
+                padding: 20px;
+            }
+        }
+    }
+}

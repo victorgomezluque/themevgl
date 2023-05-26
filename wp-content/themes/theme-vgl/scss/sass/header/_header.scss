@@ -1,0 +1,27 @@
+#wrapper-navbar {
+    display: flex;
+    justify-content: space-around;
+    .skip-link {
+        display: none;
+
+    }
+    img {
+        max-width: 200px;
+        max-height: 100px;
+    }
+    #navbarNavDropdown {
+        ul {
+            display: flex;
+
+            li {
+                list-style: none;
+                margin-right: 10px;
+
+                a {
+                    color: $primary;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

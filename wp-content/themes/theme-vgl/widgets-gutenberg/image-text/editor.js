@@ -44,6 +44,13 @@
                 });
             }
 
+            function onChangetitle(title_blocks) {
+                props.setAttributes({
+                    title_blocks: title_blocks,
+                });
+            }
+
+
             function onChangeText(text) {
                 props.setAttributes({
                     text: text,
@@ -69,9 +76,9 @@
         save: function (props) {
             var attributes = props.attributes;
 
-            return el('div', { className: props.className },
-                el('img', { src: attributes.image }),
-                el('p', null, attributes.text)
+            return el('div', { className: "image-text" },
+                el('div', { className: "image-text-title" }, el('p', { className: "image-text-text-p" }, attributes.text)),
+                el('div', { className: "image-text-img" }, el('img', { src: attributes.image })),
             );
         },
     });

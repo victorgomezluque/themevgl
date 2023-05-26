@@ -1,0 +1,17 @@
+#wrapper-navbar {
+  #main-nav {
+    a.navbar-brand {
+      display: none;
+    }
+
+    button.navbar-toggler {
+      display: none;
+    }
+  }
+}
+
+.entry-header {
+  .entry-title {
+    display: none;
+  }
+}
