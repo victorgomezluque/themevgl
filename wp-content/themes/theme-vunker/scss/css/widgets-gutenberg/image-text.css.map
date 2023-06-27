@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,0BAA2B;EACvB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EAErC,4CAAkB;IACd,gBAAgB,EAAE,OAAO;IACzB,OAAO,EAAE,KAAK;EAId,8CAAI;IACA,KAAK,EAAE,IAAI;;AAKvB,0BAA2B;EACvB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,cAAc;EAErC,4CAAkB;IACd,gBAAgB,EAAE,OAAO;IACzB,OAAO,EAAE,KAAK;EAId,8CAAI;IACA,KAAK,EAAE,IAAI",
+"sources": ["../../sass/widgets-gutenberg/image-text.scss"],
+"names": [],
+"file": "image-text.css"
+}

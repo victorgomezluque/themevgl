@@ -26,7 +26,11 @@ $navbar_type = get_theme_mod('understrap_navbar_type', 'collapse');
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 	<?php do_action('wp_body_open'); ?>
 	<div class="site" id="page">
-
+		<div class="the_post_thumbnail">
+			<?php
+			echo get_the_post_thumbnail($post->ID, 'full');
+			?>
+		</div>
 		<!-- ******************* The Navbar Area ******************* -->
 		<header id="wrapper-navbar">
 
@@ -38,3 +42,6 @@ $navbar_type = get_theme_mod('understrap_navbar_type', 'collapse');
 			<?php get_template_part('global-templates/navbar', $navbar_type . '-' . $bootstrap_version); ?>
 
 		</header><!-- #wrapper-navbar -->
+
+
+		<div class="entry-content">

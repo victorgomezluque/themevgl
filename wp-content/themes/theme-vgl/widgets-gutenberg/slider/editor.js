@@ -5,8 +5,8 @@
     var MediaUpload = wp.blockEditor.MediaUpload;
     const { SVG } = wp.components;
 
-    registerBlockType('banner/block', {
-        title: 'Banner',
+    registerBlockType('slider/block', {
+        title: 'slider',
         icon: 'smiley',
         category: 'Victor Widgets',
         attributes: {

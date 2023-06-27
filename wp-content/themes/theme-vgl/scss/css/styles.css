@@ -50,13 +50,14 @@
 }
  */
 /* BUTTON */
-#wrapper-navbar #main-nav a.navbar-brand {
-  display: none; }
-#wrapper-navbar #main-nav button.navbar-toggler {
-  display: none; }
-
-.entry-header .entry-title {
-  display: none; }
+body {
+  margin: 0px; }
+  body #wrapper-navbar #main-nav a.navbar-brand {
+    display: none; }
+  body #wrapper-navbar #main-nav button.navbar-toggler {
+    display: none; }
+  body .entry-header .entry-title {
+    display: none; }
 
 /* -------------- FONTS -------------- */
 @font-face {
@@ -108,33 +109,35 @@
   color: $white;
 }
  */
-#wrapper-navbar {
-  display: flex;
-  justify-content: space-around; }
-  #wrapper-navbar .skip-link {
-    display: none; }
-  #wrapper-navbar img {
-    max-width: 200px;
-    max-height: 100px; }
-  #wrapper-navbar #navbarNavDropdown ul {
-    display: flex; }
-    #wrapper-navbar #navbarNavDropdown ul li {
-      list-style: none;
-      margin-right: 10px; }
-      #wrapper-navbar #navbarNavDropdown ul li a {
-        color: #ff0009;
-        text-decoration: none; }
+@media only screen and (min-width: 1024px) {
+  #wrapper-navbar {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 35px; } }
+#wrapper-navbar .skip-link {
+  display: none; }
+#wrapper-navbar img {
+  max-width: 200px;
+  max-height: 100px; }
+#wrapper-navbar #navbarNavDropdown ul {
+  display: flex; }
+  #wrapper-navbar #navbarNavDropdown ul li {
+    list-style: none;
+    margin-right: 10px; }
+    #wrapper-navbar #navbarNavDropdown ul li a {
+      color: #2c919a;
+      text-decoration: none; }
 
 .wp-block-image-text-block.image-text {
   display: grid;
   grid-template-columns: repeat(2, 50%); }
-  .wp-block-image-text-block.image-text .image-text-text {
-    background: #ff0009; }
-    .wp-block-image-text-block.image-text .image-text-text .image-text-text-p {
-      display: block;
-      height: auto;
-      margin: auto;
-      padding: 100px; }
+  .wp-block-image-text-block.image-text .image-text-block {
+    background: #2c919a;
+    display: block;
+    height: auto;
+    padding: 100px; }
   .wp-block-image-text-block.image-text .image-text-img img {
     display: block;
     max-width: 400px;

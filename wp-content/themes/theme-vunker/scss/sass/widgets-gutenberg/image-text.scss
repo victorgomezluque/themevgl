@@ -1,0 +1,31 @@
+.wp-block-text-image-block {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+    .image-text-block {
+        background-color: #D9D9D9;
+        padding: 100px;
+    }
+
+    .image-text-img {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.wp-block-image-text-block {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+    .image-text-block {
+        background-color: #D9D9D9;
+        padding: 100px;
+    }
+
+    .image-text-img {
+        img {
+            width: 100%;
+        }
+    }
+}

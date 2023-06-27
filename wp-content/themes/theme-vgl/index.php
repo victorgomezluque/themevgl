@@ -20,7 +20,6 @@ $container = get_theme_mod('understrap_container_type');
 ?>
 
 <?php if (is_front_page() && is_home()): ?>
-	<?php echo the_post_thumbnail('full'); ?>
 <?php endif; ?>
 
 <div class="wrapper" id="index-wrapper">

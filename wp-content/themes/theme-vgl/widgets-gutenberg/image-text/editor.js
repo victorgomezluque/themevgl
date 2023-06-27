@@ -26,6 +26,11 @@
                 source: 'text',
                 selector: 'p',
             },
+            title_block: {
+                type: 'string',
+                source: 'text',
+                selector: 'p',
+            },
         },
         edit: function (props) {
 
@@ -69,6 +74,7 @@
                     },
                 }),
                 el('p', null,
+                    el('input', { value: attributes.title_blocks, onChange: function (e) { onChangetitle(e.target.value); } }),
                     el('textarea', { value: attributes.text, onChange: function (e) { onChangeText(e.target.value); } })
                 )
             );
@@ -77,9 +83,14 @@
             var attributes = props.attributes;
 
             return el('div', { className: "image-text" },
-                el('div', { className: "image-text-title" }, el('p', { className: "image-text-text-p" }, attributes.text)),
+                el('div', { className: "image-text-block" },
+                    el('div', { className: "image-text-title" }, el('h2', { className: "image-text-text-p h2" }, attributes.title_blocks)),
+                    el('div', { className: "image-text-text" }, el('p', { className: "image-text-text-p" }, attributes.text)),),
                 el('div', { className: "image-text-img" }, el('img', { src: attributes.image })),
             );
+
+
+
         },
     });
 })(

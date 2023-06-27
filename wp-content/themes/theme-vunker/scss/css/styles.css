@@ -1,0 +1,151 @@
+/* IMG */
+/* -------------- FONTS -------------- */
+@font-face {
+  font-family: 'Univers Next W1G Light';
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.eot");
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.woff2") format("woff2"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.woff") format("woff"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.ttf") format("truetype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.svg#UniversNextW1G-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Univers Next W1G Regular';
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.eot");
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.woff2") format("woff2"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.woff") format("woff"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.ttf") format("truetype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.svg#UniversNextW1G-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Univers Next W1G Bold';
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.eot");
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.woff2") format("woff2"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.woff") format("woff"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.ttf") format("truetype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.svg#UniversNextW1G-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+/* @mixin Description--Mobile {
+  @include UniversLTStd;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 1.5px;
+  color: $white;
+  opacity: 0.5;
+}
+@mixin Description-Desktop {
+  @include UniversLTStd;
+  font-size: 14px;
+  letter-spacing: 1.87px;
+  color: $white;
+}
+
+@mixin SmallText-Mobile {
+  @include UniversLT-45Lt;
+  font-size: 13px;
+  line-height: 1.38;
+  color: $white;
+}
+@mixin SmallText-Desktop {
+  @include UniversLT-45Lt;
+  font-size: 15px;
+  line-height: 1.67;
+  color: $white;
+}
+ */
+/* BUTTON */
+body {
+  margin: 0px; }
+  body #wrapper-navbar #main-nav a.navbar-brand {
+    display: none; }
+  body #wrapper-navbar #main-nav button.navbar-toggler {
+    display: none; }
+  body .entry-header .entry-title {
+    display: none; }
+
+/* -------------- FONTS -------------- */
+@font-face {
+  font-family: 'Univers Next W1G Light';
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.eot");
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.woff2") format("woff2"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.woff") format("woff"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.ttf") format("truetype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Light.svg#UniversNextW1G-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Univers Next W1G Regular';
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.eot");
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.woff2") format("woff2"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.woff") format("woff"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.ttf") format("truetype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Regular.svg#UniversNextW1G-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'Univers Next W1G Bold';
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.eot");
+  src: url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.eot?#iefix") format("embedded-opentype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.woff2") format("woff2"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.woff") format("woff"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.ttf") format("truetype"), url("/wp-content/themes/rotofrank/fonts/UniversNext/UniversNextW1G-Bold.svg#UniversNextW1G-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+/* @mixin Description--Mobile {
+  @include UniversLTStd;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 1.5px;
+  color: $white;
+  opacity: 0.5;
+}
+@mixin Description-Desktop {
+  @include UniversLTStd;
+  font-size: 14px;
+  letter-spacing: 1.87px;
+  color: $white;
+}
+
+@mixin SmallText-Mobile {
+  @include UniversLT-45Lt;
+  font-size: 13px;
+  line-height: 1.38;
+  color: $white;
+}
+@mixin SmallText-Desktop {
+  @include UniversLT-45Lt;
+  font-size: 15px;
+  line-height: 1.67;
+  color: $white;
+}
+ */
+@media only screen and (min-width: 1024px) {
+  #wrapper-navbar {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 35px; } }
+#wrapper-navbar .skip-link {
+  display: none; }
+#wrapper-navbar img {
+  max-width: 200px;
+  max-height: 100px; }
+#wrapper-navbar #navbarNavDropdown ul {
+  display: flex; }
+  #wrapper-navbar #navbarNavDropdown ul li {
+    list-style: none;
+    margin-right: 10px; }
+    #wrapper-navbar #navbarNavDropdown ul li a {
+      color: #2c919a;
+      text-decoration: none; }
+
+.wp-block-text-image-block {
+  display: grid;
+  grid-template-columns: repeat(2, 50%); }
+  .wp-block-text-image-block .image-text-block {
+    background-color: #D9D9D9;
+    padding: 100px; }
+  .wp-block-text-image-block .image-text-img img {
+    width: 100%; }
+
+.wp-block-image-text-block {
+  display: grid;
+  grid-template-columns: repeat(2, 50%); }
+  .wp-block-image-text-block .image-text-block {
+    background-color: #D9D9D9;
+    padding: 100px; }
+  .wp-block-image-text-block .image-text-img img {
+    width: 100%; }
+
+/*# sourceMappingURL=styles.css.map */

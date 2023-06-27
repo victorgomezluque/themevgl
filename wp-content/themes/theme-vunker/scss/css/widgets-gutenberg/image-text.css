@@ -1,0 +1,19 @@
+.wp-block-text-image-block {
+  display: grid;
+  grid-template-columns: repeat(2, 50%); }
+  .wp-block-text-image-block .image-text-block {
+    background-color: #D9D9D9;
+    padding: 100px; }
+  .wp-block-text-image-block .image-text-img img {
+    width: 100%; }
+
+.wp-block-image-text-block {
+  display: grid;
+  grid-template-columns: repeat(2, 50%); }
+  .wp-block-image-text-block .image-text-block {
+    background-color: #D9D9D9;
+    padding: 100px; }
+  .wp-block-image-text-block .image-text-img img {
+    width: 100%; }
+
+/*# sourceMappingURL=image-text.css.map */
